@@ -1,7 +1,9 @@
 $badass: #bada55;
-
-body {
+@mixin this() {
   margin: 0;
   background-color: $badass;
+}
+body {
+  @include this() ;
 }
 
