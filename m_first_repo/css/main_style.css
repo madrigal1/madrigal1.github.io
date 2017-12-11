@@ -1,0 +1,50 @@
+body {
+    content: "";
+    background: url('../photos/bg.jpeg');
+    opacity: 0.9;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;   
+    background-size:cover;
+    background-repeat: no-repeat;
+  }
+  .heading {
+      color: white;
+      font-family:"Montserrat";
+      font-size: 10vh;
+      position:absolute;
+      top:0vh;
+      left:6vh;
+      margin-bottom:3vh;
+  }
+  #heading2 {
+        font-size:8vh;
+  }
+  .wrapper {
+    position:absolute;
+    top:30vh;
+    left:6vh;
+    display: grid;
+    margin: 0 auto;
+    grid-template-columns: repeat(10,1fr);
+    grid-gap: 1vh;
+    height:70vh;
+    width: 200vh;
+    /* background-color:red; */
+  }
+
+.post {
+   grid-column: span 9;
+   height:100vh;
+}
+#sidebar {
+    grid-column: span 1;
+    height:65vh;
+    width:40vh;
+}
+#menu {
+    height:65vh;
+}
